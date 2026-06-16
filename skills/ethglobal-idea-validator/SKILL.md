@@ -30,10 +30,12 @@ Apply this to a project's **description** — first the one-line listing blurb a
 
 | Factor | Weight | What earns points |
 |---|---|---|
-| **Relevance to the idea** | 0-4 | Same problem space / solution approach / target user as the user's idea. 4 = direct overlap, 0 = unrelated. **This is the gate: if relevance is 0-1, total is low no matter how good the project is.** |
+| **Relevance to the idea** | 0-4 | Same problem space / solution approach / target user as the user's idea. 4 = direct overlap, 0 = unrelated. **This is the gate — it hard-caps the total (see below), so a low score here sinks the project no matter how good the rest is.** |
 | **Specificity** | 0-2 | Names real tech with versions/networks (e.g. "Daml 3.5.1, Canton DevNet, Chainlink Sepolia") vs vague buzzwords ("AI-powered decentralized platform"). |
 | **Evidence it was built** | 0-2 | Architecture described, contracts/modules named, deployment, test scenarios, real screenshots — and links that resolve to something *specific* (a real GitHub path, a specific demo URL), not bare `youtube.com` / `github.com`. |
 | **Novelty** | 0-2 | A non-obvious angle or technical decision vs an incremental "another X". |
+
+**The gate is a hard cap, not just a weight.** Compute the raw 0-10 total, then apply: **if relevance is 0, total = 0; if relevance is 1, cap total at 4.** This guarantees an off-topic project can never climb into the "worth opening" band on the strength of specificity/evidence/novelty alone — relevance is the whole point of this skill. (Without the cap, relevance 1 + perfect on the other three = 7, which wrongly reads as "open it.")
 
 **Reading the score:**
 - **8-10** → deep-dive now. Close to the idea AND substantive.

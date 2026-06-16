@@ -9,7 +9,7 @@
     {
       "name": "ethglobal-idea-validator",
       "description": "Validate a hackathon idea against ETHGlobal's showcase — find similar past projects, study every prize winner, and score non-winners by how worth studying they are for YOUR idea.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "source": "./",
       "author": {
         "name": "Soumalya Paul",

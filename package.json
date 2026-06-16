@@ -1,0 +1,21 @@
+{
+  "name": "ethglobal-idea-validator",
+  "version": "1.0.0",
+  "description": "Install the ETHGlobal idea validator skill for Claude Code and Cursor",
+  "type": "module",
+  "bin": {
+    "ethglobal-idea-validator": "./install.js"
+  },
+  "files": [
+    "install.js",
+    "SKILL.md"
+  ],
+  "keywords": [
+    "ethglobal",
+    "hackathon",
+    "claude-code",
+    "skill",
+    "web3"
+  ],
+  "license": "MIT"
+}

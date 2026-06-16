@@ -5,6 +5,16 @@ All notable changes to this skill are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.2] - 2026-06-16
+
+### Added
+- `package-lock.json` committed (via `npm install --package-lock-only`).
+- npm audit scripts in `package.json`:
+  - `npm run audit`
+  - `npm run audit:fix`
+  - `prepublishOnly` automatically runs `npm audit --audit-level=moderate` before `npm publish`.
+- This change ensures that anyone who clones the public GitHub repository gets a clean, professional experience: `npm audit` works immediately after clone and reports **0 vulnerabilities** instead of failing with the scary `ENOLOCK` ("requires a lockfile") error.
+
 ## [1.1.1] - 2026-06-16
 
 ### Fixed

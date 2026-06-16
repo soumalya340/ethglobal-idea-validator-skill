@@ -1,7 +1,17 @@
+<p align="center">
+  <img src="assets/readme-banner.png" alt="ETHGlobal Idea Validator - Validate your hackathon idea against thousands of past projects" width="100%" />
+</p>
+
 <h1 align="center">ETHGlobal Idea Validator</h1>
 
 <p align="center">
   <em>Before you build it at a hackathon — find out who already did, who won, and what's worth stealing.</em>
+</p>
+
+<p align="center">
+  <a href="https://github.com/soumalya340/ethglobal-idea-validator-skill">
+    <img src="assets/ethglobal-idea-validator-logo.png" width="80" height="80" alt="ETHGlobal Idea Validator" />
+  </a>
 </p>
 
 <p align="center">

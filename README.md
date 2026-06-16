@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/readme-banner.png" alt="ETHGlobal Idea Validator - Validate your hackathon idea against thousands of past projects" width="100%" />
+  <img src="assets/readme-banner.jpg" alt="ETHGlobal Idea Validator - Validate your hackathon idea against thousands of past projects" width="100%" />
 </p>
 
 <h1 align="center">ETHGlobal Idea Validator</h1>

@@ -9,6 +9,7 @@
   "files": [
     "install.js",
     "skills/ethglobal-idea-validator/SKILL.md",
+    "assets/",
     "README.md",
     "LICENSE"
   ],

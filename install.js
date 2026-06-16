@@ -5,7 +5,10 @@ import { join, resolve } from "path";
 import { homedir } from "os";
 
 const SKILL_NAME = "ethglobal-idea-validator";
-const SKILL_MD = readFileSync(new URL("./SKILL.md", import.meta.url), "utf8");
+const SKILL_MD = readFileSync(
+  new URL("./skills/ethglobal-idea-validator/SKILL.md", import.meta.url),
+  "utf8"
+);
 
 const args = process.argv.slice(2);
 const projectMode = args.includes("--project");
